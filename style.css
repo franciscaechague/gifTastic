@@ -1,0 +1,57 @@
+body {
+  font-family: Arial;
+  color: #12228a;
+  font-size: 20px;
+  background-image: url("backgrd.png");
+  text-align: center;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+
+}
+
+.row {
+  margin:10px;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  font-size: 60px;
+}
+
+
+button {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #12228a;
+  font-size: 18px;
+  padding: 5px 10px 5px 10px;
+  border: solid #12228a 2px;
+  text-decoration: none;
+  background-color: white;
+  margin: 5px;
+  transition: 1s ease-in-out;
+}
+
+button:hover {
+  background: #12228a;
+  background-image: -webkit-linear-gradient(top, #12228a, #12228a);
+  background-image: -moz-linear-gradient(top, #12228a, #12228a);
+  background-image: -ms-linear-gradient(top, #12228a, #12228a);
+  background-image: -o-linear-gradient(top, #12228a, #12228a);
+  background-image: linear-gradient(to bottom, #12228a, #12228a);
+  text-decoration: none;
+}
+
+#gifs-view {
+  float: left;
+}
+
+.item {
+  float: left;
+  margin: 10px;
+}
